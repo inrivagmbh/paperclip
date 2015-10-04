@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
   s.add_dependency('activesupport', '>= 2.3.2')
   s.add_dependency('cocaine', '>= 0.0.2')
   s.add_dependency('mime-types')
+  
+  s.add_runtime_dependency('cocaine', '~> 0.2', '>=.0.2')
 
   s.add_development_dependency('shoulda')
   s.add_development_dependency('appraisal', '~> 0.4.0')
